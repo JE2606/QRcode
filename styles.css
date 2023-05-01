@@ -1,0 +1,79 @@
+/* ESTILO GENERAL */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ESTILO DEL BODY */
+body{
+    background: #fdf5ee;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* ESTILO PARA EL CONTENEDOR DE LOS DATOS */
+.container{
+    padding: 40px 60px;
+    background-color: #fec395;
+    display: flex;
+    align-items: center;
+    border: 5px solid rgba(190, 190, 190, 0.3);
+    border-radius: 20px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
+    flex-direction: column;
+}
+
+/* ESTILOS DEL INPUT */
+.input{
+    padding: 12px 20px;
+    width: 300px;
+    margin-top: 15%;
+    margin-bottom: 20px;
+    border: 1px solid rgb(223, 221, 221);
+    border-radius: 5px;
+}
+.input::placeholder{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #5b5956;
+}
+
+/* ESTILOS DEL BOTON GENERADOR */
+button{
+    height: 50px;
+    width: 200px;
+    padding: 12px 20px;
+    margin-bottom: 20px;
+    border: 1px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 7px rgba(127, 124, 124, 0.3);
+    background: #f17f67;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 17px;
+}
+button:hover{
+    transition: 900ms;
+    background-color: #f06448;
+    cursor: pointer;
+}
+
+/* ESTILO PARA EL ESPACIO DONDE SE GENERARA EL CODIGO */
+#imgQR{
+    display: flex;
+    justify-content: center;
+    
+}
+img{
+    margin-bottom: 20px;
+}
+
+/* ESTILO DE LA ALERTA */
+.popup-class {
+    border-radius: 5px;
+}
